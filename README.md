@@ -1,5 +1,8 @@
 # IFC & Point cloud viewer
 
+# Demo
+[Live demo](http://everse.content.s3-website-us-east-1.amazonaws.com/index.html)
+
 # About
 Sample based on [Potree](https://github.com/potree/potree) and the IFCLoader from [threejs](https://github.com/mrdoob/three.js). 
 
