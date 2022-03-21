@@ -30,6 +30,6 @@
     "serve": "^13.0.2",
     "through": "~2.3.4"
   },
-  "author": "Markus Schütz",
-  "license": "BSD-2-CLAUSE"
+  "author": "E-verse",
+  "license": "MIT"
 }
