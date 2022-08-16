@@ -1,7 +1,7 @@
 {
-  "name": "potree",
+  "name": "potree-ifc-viewer",
   "private": true,
-  "version": "1.8.0",
+  "version": "2.0.0",
   "description": "WebGL point cloud viewer",
   "keywords": [
     "point",
@@ -31,5 +31,14 @@
     "through": "~2.3.4"
   },
   "author": "E-verse",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EverseDevelopment/Viewer.IFC.Potree.Snack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EverseDevelopment/Viewer.IFC.Potree.Snack/issues"
+  },
+  "homepage": "https://github.com/EverseDevelopment/Viewer.IFC.Potree.Snack#readme"
 }
