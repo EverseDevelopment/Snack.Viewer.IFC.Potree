@@ -41,6 +41,7 @@ Download [PotreeConverter](https://github.com/potree/PotreeConverter) and run it
 
 Copy the converted directory into &lt;potreeDirectory&gt;/pointclouds/data_converted. Then, duplicate and rename one of the examples and modify the path in the html file to your own point cloud.
 
+
 # Downloads
 
 * [Potree](https://github.com/potree/potree/releases)
