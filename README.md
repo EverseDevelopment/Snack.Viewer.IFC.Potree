@@ -48,3 +48,12 @@ Copy the converted directory into &lt;potreeDirectory&gt;/pointclouds/data_conve
 * [PotreeConverter ](https://github.com/potree/PotreeConverter/releases) - Convert your point cloud to the Potree format.
 * [PotreeDesktop ](https://github.com/potree/PotreeDesktop/releases) - Desktop version of Potree. Allows drag&drop of point clouds into the viewer.
 
+## About us ##
+
+We are an international mix of AEC professionals, product designers, and software developers. We work together to transform construction requirements into accurate and partnership-driven technological solutions.
+
+<p align="center" width="100%">
+    <a href="https://www.e-verse.com/">
+    <img src="https://github.com/EverseDevelopment/Viewer.IFC.Potree.Snack/blob/master/build/resources/e-verse_logo_no%20slogan.jpg" width="732" height="271" align="center">
+    </a>
+</p>
