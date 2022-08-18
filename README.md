@@ -1,5 +1,8 @@
 # IFC & Point cloud viewer
 
+[<img src="https://github.com/EverseDevelopment/Viewer.IFC.Potree.Snack/blob/master/build/resources/IFCPotree.jpg" width="443" height="166">](https://github.com/EverseDevelopment/DynaForge/wiki)
+<br/>
+
 # Demo
 [Live demo](http://everse.content.s3-website-us-east-1.amazonaws.com/index.html)
 
