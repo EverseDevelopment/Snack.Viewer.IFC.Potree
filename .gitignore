@@ -1,5 +1,4 @@
-/test
-/test1
+.vscode/
 /360
 node_modules
 docs/.marking_your_own_pointcloud_loader.md.html
