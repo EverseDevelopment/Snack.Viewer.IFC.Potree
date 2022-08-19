@@ -6,19 +6,28 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<title>Potree Viewer</title>
+	<title>e-verse</title>
 
+	<link rel="shortcut icon" href="./resources/images/Background.ico" />
 	<link rel="stylesheet" type="text/css" href="../build/potree/potree.css">
 	<link rel="stylesheet" type="text/css" href="../libs/jquery-ui/jquery-ui.min.css">
 	<link rel="stylesheet" type="text/css" href="../libs/openlayers3/ol.css">
 	<link rel="stylesheet" type="text/css" href="../libs/spectrum/spectrum.css">
 	<link rel="stylesheet" type="text/css" href="../libs/jstree/themes/mixed/style.css">
+	<link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+	<link rel="stylesheet" type="text/css" href="./resources/css/custom.css">
 </head>
 
 <body>
 	<script src="../libs/jquery/jquery-3.1.1.min.js"></script>
 	<script src="../libs/spectrum/spectrum.js"></script>
 	<script src="../libs/jquery-ui/jquery-ui.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
 
 	<script src="../libs/other/BinaryHeap.js"></script>
@@ -41,6 +50,56 @@
 		<!-- <div id="potree_sidebar_container"> </div> -->
 	</div>
 
+	<div class="info-wrapper" data-target="#info-modal" data-toggle="modal">
+		<img src="./resources/images/infoLogo.jpeg" id="info-logo" alt="logo" />
+	</div>
+
+	<img src="./resources/images/EverseLogo.png" id="bottom-logo" alt="logo" />
+
+	<!-- Start Modal -->
+	<div class="modal fade" id="info-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<h3 class="modal-title">DATA MODEL</h3>
+					<div class="info-description">
+						<h5>
+							REPOSITORY
+						</h5>
+						<p>
+							<a href="https://github.com/EverseDevelopment/Viewer.IFC.Potree.Snack">
+								https://github.com/EverseDevelopment/Viewer.IFC.Potree.Snack
+							</a>
+						</p>
+					</div>
+					<div class="info-description">
+						<h5>
+							DESCRIPTION
+						</h5>
+						<p>
+							This is a 3D viewer to visualize how a point cloud and an IFC model interact
+						</p>
+					</div>
+					<div class="info-description">
+						<h5>
+							TECHNOLOGY STACK
+						</h5>
+						<p>IFC</p>
+						<p>Three.js</p>
+						<p>Potree</p>
+					</div>
+					<div class="info-description">
+						<h5>
+							SERVICES
+						</h5>
+						<p>3D viewer</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Modal -->
+
 	<script type="module">
 		import * as THREE from '../libs/three.js/build/three.module.js';
 		import { IFCLoader } from '../libs/three.js/extra/IFCLoader.js';
@@ -62,7 +121,6 @@
 
 		const ambientLight = new THREE.AmbientLight(0xffffee, 0.25);
 		scene.add(ambientLight);
-		viewer.setDescription("Point cloud & IFC viewer test</a>");
 
 		// Load and add point cloud to scene
 		Potree.loadPointCloud("../pointclouds/demo/cloud.js", "sigeom.sa", e => {
