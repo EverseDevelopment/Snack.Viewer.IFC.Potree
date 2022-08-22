@@ -16,7 +16,7 @@
 }
 
 .info-wrapper img {
-  width: 1rem;
+  width: 1.6rem;
 }
 
 .modal-content {
@@ -47,4 +47,10 @@
 .info-description p > a {
   color: grey;
   word-break: break-word;
+}
+
+#potree_render_area {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
