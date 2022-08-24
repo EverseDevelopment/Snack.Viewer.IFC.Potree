@@ -1,0 +1,56 @@
+#bottom-logo {
+  position: absolute;
+  z-index: 99;
+  height: 3rem;
+  bottom: 0;
+  right: 1rem;
+}
+
+.info-wrapper {
+  position: absolute;
+  z-index: 99;
+  top: 1rem;
+  left: 1rem;
+  background: transparent;
+  cursor: pointer;
+}
+
+.info-wrapper img {
+  width: 1.6rem;
+}
+
+.modal-content {
+  border-radius: 1rem;
+}
+
+.modal-body {
+  padding: 2rem;
+}
+
+.modal-title {
+  color: #E62442;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.info-description h5 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.info-description p {
+  font-size: 13px;
+  color: grey;
+  margin-bottom: 0.5rem;
+}
+
+.info-description p > a {
+  color: grey;
+  word-break: break-word;
+}
+
+#potree_render_area {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
