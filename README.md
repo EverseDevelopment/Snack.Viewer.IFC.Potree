@@ -1,10 +1,10 @@
 # IFC & Point cloud viewer
 
-[<img src="https://github.com/EverseDevelopment/Viewer.IFC.Potree.Snack/blob/master/build/resources/IFCPotree.jpg" width="443" height="166">](https://github.com/EverseDevelopment/DynaForge/wiki)
+[<img src="https://s3.amazonaws.com/everse.assets/IFCPotree.png" width="443" height="209">](https://github.com/EverseDevelopment/Viewer.IFC.Potree.Snack/wiki)
 <br/>
 
 # Demo
-[Live demo](http://everse.content.s3-website-us-east-1.amazonaws.com/index.html)
+[Live demo](https://ifcpointcloud.e-verse.com/)
 
 # About
 Sample based on [Potree](https://github.com/potree/potree) and the IFCLoader from [threejs](https://github.com/mrdoob/three.js). 
@@ -57,6 +57,6 @@ We are an international mix of AEC professionals, product designers, and softwar
 
 <p align="center" width="100%">
     <a href="https://www.e-verse.com/">
-    <img src="https://github.com/EverseDevelopment/Viewer.IFC.Potree.Snack/blob/master/build/resources/e-verse_logo_no%20slogan.jpg" width="732" height="271" align="center">
+    <img src="https://s3.amazonaws.com/everse.assets/e-verse_logo_no+slogan.jpg" width="732" height="271" align="center">
     </a>
 </p>
